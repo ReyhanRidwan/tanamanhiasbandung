@@ -29,17 +29,17 @@ const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER.replace('+', '')}`;
 const HERO_SLIDES = [
   {
     id: 1,
-    image: "https://dpa79oyyyfxcd.cloudfront.net/laravel/design/20b70250-67fa-43ee-a247-41a22a23dd0f.png",
+    image: "https://scontent.xx.fbcdn.net/v/t1.15752-9/668307526_1446837333128424_8637243453494905251_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=9f807c&_nc_ohc=5Eas2afQnSwQ7kNvwFTm_zN&_nc_oc=AdpdGbYS7WF2S46sk3wTUzOOLJ7K2wRZJLYxxtPm21zyt0HrFPHLNd1hONN6AwcIo2u9PuTjyRAhhCNuzTTT2lp2&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&_nc_ss=7a32e&oh=03_Q7cD5AETnbEWz7eXftKNuufdE8H0eYpzamIFUrNrmIBqXhYxWQ&oe=6A082C2A",
     subtitle: "Estetika Alam",
     title: "Taman Impian di Rumah Anda",
     description: "Wujudkan hunian yang asri dan menenangkan dengan sentuhan landscape profesional."
   },
   {
     id: 2,
-    image: "https://platinumadisentosa.com/wp-content/uploads/2025/02/Ternyata-Begini-Cara-Membuat-Kolam-Ikan-Ideal-dan-Nyaman-1536x864.jpg",
+    image: "https://instagram.fcgk33-1.fna.fbcdn.net/v/t1.15752-9/667394386_992860819973859_8349307937634684328_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&ccb=7-5&_nc_sid=fc17b8&efg=eyJxZV9ncm91cHMiOlsiaWdkX2Jlc3RfZWZmb3J0X2ltYWdlOnRlc3QiXX0%3D&_nc_ohc=uNVAlld3et8Q7kNvwEQXvRI&_nc_oc=AdpgjpI3TryzLJFraciImjC8JT9axjjBqDMMFspmbYN7pR03YgwCv7IdujmH7CrYSgbB9tVD8pZGOfk0vezyDpw3&_nc_zt=23&_nc_ht=instagram.fcgk33-1.fna&_nc_ss=7a2a8&oh=03_Q7cD5AHPt1727GyOJzMvez7ma8GZXDn6kqz9_p0hwx2QL_Vuwg&oe=6A0819BB",
     subtitle: "Ketenangan Air",
-    title: "Kolam Koi & Air Mancur",
-    description: "Hadirkan harmoni suara air yang menyejukkan di sudut favorit rumah Anda."
+    title: "Taman Kolam Renang",
+    description: "Hadirkan taman cantik di sekeliling kolam renang untuk suasana relaksasi yang maksimal."
   }
 ];
 
@@ -85,12 +85,15 @@ const SERVICES = [
 const PORTFOLIO = [
   { id: 1, category: "Minimalis", image: "https://instagram.fcgk33-1.fna.fbcdn.net/v/t1.15752-9/657762933_1420976045996876_5059208154390473513_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=101&ccb=7-5&_nc_sid=fc17b8&efg=eyJxZV9ncm91cHMiOlsiaWdkX2Jlc3RfZWZmb3J0X2ltYWdkOnRlc3QiXX0%3D&_nc_ohc=O6tSPjPnyDoQ7kNvwH16T7I&_nc_oc=AdpGZutdkhBO1X8ULfDbeJqJHoMBkqUV3Q854IqfEIOOycw3co2f74W7zvGPPNtzh580WI95fvj1KTApetXfLzqh&_nc_zt=23&_nc_ht=instagram.fcgk33-1.fna&_nc_ss=7a3a8&oh=03_Q7cD5AGfORrlpbuslnilOZTEdSqMO_V0zw72eOlQTQJjXpK0pQ&oe=69FB3AEC", title: "Taman Depan Rumah Modern" },
   { id: 2, category: "Tropis", image: "https://instagram.fcgk33-1.fna.fbcdn.net/v/t1.15752-9/664112044_1107238804917949_4962049671179376389_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=109&ccb=7-5&_nc_sid=fc17b8&efg=eyJxZV9ncm91cHMiOlsiaWdkX2Jlc3RfZWZmb3J0X2ltYWdkOnRlc3QiXX0%3D&_nc_ohc=q09EhcFDU0gQ7kNvwEkUf_M&_nc_oc=AdrD7Wz0RonDOUdzNLsssPcnRZt-d9h60EWfaOsQNocKPSqXCeObzPbG0eEONtQ2Y1Cn56cBwwESgHScNX1wgD9E&_nc_zt=23&_nc_ht=instagram.fcgk33-1.fna&_nc_ss=7a3a8&oh=03_Q7cD5AFYE84WEvD9ZMS6MIWAagPzd7NpkKB5UCJqsrozG2gWOw&oe=69FB1446", title: "Oasis Tropis Belakang Rumah" },
-  { id: 3, category: "Minimalis", image: "https://instagram.fcgk33-1.fna.fbcdn.net/v/t1.15752-9/659650849_2908540809509293_3257047460079622925_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=104&ccb=7-5&_nc_sid=fc17b8&efg=eyJxZV9ncm91cHMiOlsiaWdkX2Jlc3RfZWZmb3J0X2ltYWdkOnRlc3QiXX0%3D&_nc_ohc=TUfHFFOWgKEQ7kNvwF_7-WW&_nc_oc=AdrGSW-6JWg1tENjLe2a2oE8TNP5YPAZm0-s3RVndrjoLejKG4QE_M8gmFrOTXpXtv6p6Zj94OWlBWUoCvp6YoU2&_nc_zt=23&_nc_ht=instagram.fcgk33-1.fna&_nc_ss=7a3a8&oh=03_Q7cD5AFFRQqyENBEFTny3IDGz0LPoIHmJsUfewBtFgR7TZZKNA&oe=69FB2A88", title: "Taman Samping Minimalis" },
   { id: 4, category: "Minimalis", image: "https://scontent.xx.fbcdn.net/v/t1.15752-9/658372854_1669863117531731_3178817597552396113_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=9f807c&_nc_ohc=QnPadBH4fsMQ7kNvwFGklQf&_nc_oc=AdpsexyLgpye-M8H7Y3dLhLAvZ0Td_ma09ZyFDGGVk2B7En_eg2xr92JnUTizyq1-Y9OL_PDSp17VTSNvu3h2Ukp&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&_nc_ss=7a32e&oh=03_Q7cD5AHJqVj7fNrpj-Neq68ZhUfGZWd0nR0n8oSwJw7VEqyB0Q&oe=69F72CB0", title: "Project Taman Minimalis A" },
   { id: 5, category: "Taman Kering", image: "https://scontent.xx.fbcdn.net/v/t1.15752-9/661444452_823178730279611_7379588697716753328_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=9f807c&_nc_ohc=IYxytN_cILoQ7kNvwFQ1kSC&_nc_oc=Adp0UMUqyX2-4zJldkvNyXdW5pytlW0QZy5Ioy5CozWzhL3BzThUlNwIjeBYHUfVBiof_5GNt41w076pwzRKVc3w&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&_nc_ss=7a32e&oh=03_Q7cD5AEroGxtv1QMAH_mDychaCJ2YztBIwnkelbPC0KIcw0wBg&oe=69F73EE8", title: "Zen Garden Kering" },
   { id: 6, category: "Vertical Garden", image: "https://scontent.xx.fbcdn.net/v/t1.15752-9/661542538_2814491302258261_7081437908575069863_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=9f807c&_nc_ohc=dOhvMHK4hU4Q7kNvwGWYoLu&_nc_oc=AdrfHAAPb1H_gbfUSxpzDx67EmUekwvcv-1DzbJZ2TfyqupLINdaop2q31E1IvsnnwGh_OFwA7Ju4VCY-8IV8Ja0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&_nc_ss=7a32e&oh=03_Q7cD5AE9JjZlZ97gz4kjze1xQJ5DZeuqubMl9jCR4lJqD9fMYA&oe=69F72DA9", title: "Green Wall Office" },
   { id: 7, category: "Kolam Hias", image: "https://scontent.cdninstagram.com/v/t1.15752-9/658327752_957342713534054_186065741987715165_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=102&ccb=7-5&_nc_sid=fc17b8&efg=eyJxZV9ncm91cHMiOlsiaWdkX2Jlc3RfZWZmb3J0X2ltYWdkOnRlc3QiXX0%3D&_nc_ohc=u2ydSdcZqKQQ7kNvwGP1Ad7&_nc_oc=AdpLtSCRhA78yq3xlzDpdgCSpjJW30qOAByOvB8lZNLO3yc_xhtc3raDhYfwQO2KBxqECpm0WGihzE4zJONvHjWW&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_ss=7a32e&oh=03_Q7cD5AGrypDRwI_9dwd_5z5SlY9ZtvtdE7-dIjd3M3xlDhDpyA&oe=6A03F937", title: "Kolam Koi Mewah" },
-  { id: 8, category: "Hardscape", image: "https://scontent.xx.fbcdn.net/v/t1.15752-9/664731380_1857324728309573_836257247417149924_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=9f807c&_nc_ohc=EC50d4os7eYQ7kNvwGGxkBv&_nc_oc=Adqz2lZI60sgg0OkkO8t9YsuA9NYJfgFywTNcbCWAdvwKyJbqeR8RF7GyhR2ytkpTNs8262oo-ct87D-m6k0dl-m&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&_nc_ss=7a32e&oh=03_Q7cD5AHQPb9k9trKg5ahicICWFjgEyjYpOwhvFVSVftFzlkpNA&oe=69F747BF", title: "Paving & Gazebo Area" }
+  { id: 8, category: "Hardscape", image: "https://scontent.xx.fbcdn.net/v/t1.15752-9/664731380_1857324728309573_836257247417149924_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=9f807c&_nc_ohc=EC50d4os7eYQ7kNvwGGxkBv&_nc_oc=Adqz2lZI60sgg0OkkO8t9YsuA9NYJfgFywTNcbCWAdvwKyJbqeR8RF7GyhR2ytkpTNs8262oo-ct87D-m6k0dl-m&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&_nc_ss=7a32e&oh=03_Q7cD5AHQPb9k9trKg5ahicICWFjgEyjYpOwhvFVSVftFzlkpNA&oe=69F747BF", title: "Paving & Gazebo Area" },
+  { id: 9, category: "Taman Kering", image: "https://instagram.fcgk33-1.fna.fbcdn.net/v/t1.15752-9/669434705_1625653661918499_139359049765929475_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=101&ccb=7-5&_nc_sid=fc17b8&efg=eyJxZV9ncm91cHMiOlsiaWdkX2Jlc3RfZWZmb3J0X2ltYWdkOnRlc3QiXX0%3D&_nc_ohc=idR_kVxpZigQ7kNvwEe60sV&_nc_oc=AdrUuKrEEclc_SS49YvPVIikXoXfLBlG38-n0EtbsWJSwj9kRIeLVzuygNRNLMyZwneVjMoOuXNMTy2i-jonXJU0&_nc_zt=23&_nc_ht=instagram.fcgk33-1.fna&_nc_ss=7a2a8&oh=03_Q7cD5AF5LBAMmh8ZSAD4lEcwjiSNt_lX46WKRg6l6yPOvWAQAA&oe=6A082385", title: "Dry Garden Aesthetic", aspect: "9/16" },
+  { id: 10, category: "Taman Kering", image: "https://instagram.fcgk33-1.fna.fbcdn.net/v/t1.15752-9/672420719_1587597565648301_5165633523424202660_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=100&ccb=7-5&_nc_sid=fc17b8&efg=eyJxZV9ncm91cHMiOlsiaWdkX2Jlc3RfZWZmb3J0X2ltYWdkOnRlc3QiXX0%3D&_nc_ohc=QwkspJxOelUQ7kNvwFXzpAv&_nc_oc=Adp5vWK2l24UIIwL5W0Gj04jjJRQLjG64arirbVLj-NwscKhGRUQ5pIGoASyqpHCrUt1UvaaU56a05DXftPUliUH&_nc_zt=23&_nc_ht=instagram.fcgk33-1.fna&_nc_ss=7a2a8&oh=03_Q7cD5AHnyPrwXK-ikNilH1ysohcgcdHYkJ-ATqGta_LM_TETGQ&oe=6A080D43", title: "Modern Dry Garden", aspect: "9/16" },
+  { id: 11, category: "Minimalis", image: "https://instagram.fcgk33-1.fna.fbcdn.net/v/t1.15752-9/672480975_765527229830123_5240618649897644210_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=107&ccb=7-5&_nc_sid=fc17b8&efg=eyJxZV9ncm91cHMiOlsiaWdkX2Jlc3RfZWZmb3J0X2ltYWdkOnRlc3QiXX0%3D&_nc_ohc=kBs9q4T4B3QQ7kNvwGFK1GG&_nc_oc=AdqDxyfxU34weh2ozFg7i6_aZkMebymW6csYbORBfq2CLuohtC1oXnOID7VE86m6VushDEVgy8ssJopCgjhatWyS&_nc_zt=23&_nc_ht=instagram.fcgk33-1.fna&_nc_ss=7a2a8&oh=03_Q7cD5AH7-OtBVOZZ8ufzXAoVfnbZIkgjKIz2tChCx1DtMWghXg&oe=6A082335", title: "Minimalist Garden Design", aspect: "9/16" },
+  { id: 12, category: "Tropis", image: "https://instagram.fcgk33-1.fna.fbcdn.net/v/t1.15752-9/666487666_2357429691421244_5339791323128119145_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&ccb=7-5&_nc_sid=fc17b8&efg=eyJxZV9ncm91cHMiOlsiaWdkX2Jlc3RfZWZmb3J0X2ltYWdkOnRlc3QiXX0%3D&_nc_ohc=1TBYzcCFL10Q7kNvwGgbFP1&_nc_oc=AdplB3Hx9WJFd1Oo_Sw6nkpy2Jzh73F2zLcJy8gL-xaSoPAaZBSzju5mwteN3rH7kXplboCNqml-zcL6BN18R_rb&_nc_zt=23&_nc_ht=instagram.fcgk33-1.fna&_nc_ss=7a2a8&oh=03_Q7cD5AGjbM5ZYeEhBF2P6zLikZvrJaQwPaYE0qyP8livGOryKA&oe=6A0813B1", title: "Tropical Paradise", aspect: "9/16" }
 ];
 
 const TESTIMONIALS = [
@@ -479,7 +482,7 @@ export default function App() {
 
           <motion.div 
             layout
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+            className="columns-1 md:columns-2 lg:columns-3 gap-6 space-y-6"
           >
             <AnimatePresence mode="popLayout">
               {filteredPortfolio.map((item) => (
@@ -490,7 +493,10 @@ export default function App() {
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: 40 }}
                   transition={{ duration: 0.5, ease: "easeOut" }}
-                  className="group relative rounded-3xl overflow-hidden aspect-video shadow-md hover:shadow-2xl transition-all"
+                  className={cn(
+                    "group relative rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all break-inside-avoid",
+                    item.aspect === "9/16" ? "aspect-[9/16]" : "aspect-video"
+                  )}
                 >
                   <img 
                     src={item.image} 
